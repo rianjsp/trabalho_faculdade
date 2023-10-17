@@ -11,13 +11,13 @@
 
 .col:hover{
     transform: translateY(-4px);
-    transition: 0.5s;
+    transition: 0.5s ease-in-out;
     cursor: pointer;
 
     .card-img-top {
         width: 101% !important;
         
-        transition: 0.3s ease-in-out;
+        transition: 0.5s ease-in-out;
         box-shadow: 2px 2px 4px #0000003b,
         -6px -6px 8px #ddd9d9f1;
     }
