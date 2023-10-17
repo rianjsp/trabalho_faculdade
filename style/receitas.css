@@ -1,0 +1,33 @@
+.col {
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+.card-items li {
+    list-style-type: disc;
+    color: black;
+    text-shadow: #0000004d 1px 1px 2px;
+}
+
+.col:hover{
+    transform: translateY(-4px);
+    transition: 0.5s;
+    cursor: pointer;
+
+    .card-img-top {
+        width: 101% !important;
+        
+        transition: 0.3s ease-in-out;
+        box-shadow: 2px 2px 4px #0000003b,
+        -6px -6px 8px #ddd9d9f1;
+    }
+}
+
+.card-img-top{
+    border-radius: 9px !important;
+    
+}
+.card-img-top:hover{
+    transform: translateY(-4px);
+}
+

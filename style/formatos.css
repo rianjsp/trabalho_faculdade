@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        min-width: 400px;
+        background-color: salmon !important;
+}
+
+header{
+    padding: 5px;
+    width: 100%;
+    background-color: #1d1919;
+    color: #eee;
+}
+
+/* initial content header */
+
+.header-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        margin-top: 10px;
+}
+
+.header-content h3{
+    font-size: 15px;
+    text-transform: capitalize;
+
+}
+
+.header-content ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.header-content li{
+    margin-right: 20px;
+}
+
+.header-content a{
+    text-decoration: none;
+    color: #c2bdbd;
+}
+
+/* initial hover's and active page */
+
+.header-content a:hover{
+    color: #e6e6e6;
+    transition: 0.3s;
+}
+
+#active{
+    color: #ffffff;
+}
+
+/* finally hover's and active page */
+
+/* finally content header */
+
+main{
+    flex-grow: 1;
+    padding: 10px;
+}
+
+/* initial content main */
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.content-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    align-items: center;
+}
+
+.content-logo h1{
+    font-weight: 760;
+    font-size: 50px;
+}
+
+.content-logo img{
+    width: 70px;
+    margin-right: 5px;
+    
+}
+
+.description-logo p{
+    font-weight: 700;
+    font-size: large;
+    text-align: center;
+    margin: -1px;
+}
+
+
+/* finally content main */
+
+footer{
+    background-color: #1d1919;
+    width: 100%;
+    color: #eee;
+}
+
+/* initial content footer */
+
+.footer-content{
+    text-align: center;
+    padding: 2px;
+}
+
+.footer-content h3{
+    font-size: 17px;
+}
+
+/* finally content footer */
